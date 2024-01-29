@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     passwd = decrypt_message(file='passwd.txt') # Change the file name if changed
 
-    username.send_keys('mazen6dr')
+    username.send_keys('m******r')
     password.send_keys(passwd)
     # password.send_keys(Keys.RETURN)
     login_button.click()
@@ -69,8 +69,8 @@ if __name__ == "__main__":
 
 ```python
     # Set up email credentials
-    email = "jr_developer2@mazenetsolution.com"
-    to_email = "ashokraj@mazenetsolution.com" # My testing mail - "vishnupouleymz@gmail.com"
+    email = "from_mail@gmail.com"
+    to_email = "to_mail@gmail.com" 
 
     # Decrypt the password
     password = decrypt_message(file="password.txt") # Change the file name if changed
@@ -93,5 +93,4 @@ pyinstaller --onefile data.py send_mail.py
 
 ### 4. Delete all other files which are created along with the executable file
 
-for more details, mail me at jr_developer2@mazenetsolution.com 
 "# Automation" 
