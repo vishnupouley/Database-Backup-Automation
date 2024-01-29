@@ -31,8 +31,8 @@ def decrypt_message(file) -> str:
 def send_mail(status: dict) -> bool:
 
     # Set up email credentials
-    email = "jr_developer2@mazenetsolution.com"
-    to_email = "ashokraj@mazenetsolution.com" # My testing mail - "vishnupouleymz@gmail.com"
+    email = "from_mail@gmail.com"
+    to_email = "to_mail@gmail.com" 
 
     # Decrypt the password
     password = decrypt_message(file="password.txt") # Change the file name if changed
