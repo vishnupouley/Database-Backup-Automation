@@ -22,7 +22,7 @@ try:
 
     passwd = decrypt_message(file='passwd.txt') # Change the file name if changed
 
-    username.send_keys('mazen6dr')
+    username.send_keys('m******r')
     password.send_keys(passwd)
     # password.send_keys(Keys.RETURN)
     login_button.click()
@@ -58,12 +58,12 @@ try:
             print("Database Page loaded!")
 
             id_num_dict = {
-                            "2580": "ashokrajd_Mazenet_BizCRM_DB",
-                            "6123": "ashokrajd_db_mcrm",
-                            "2689": "ashokrajd_db_tender",
-                            "2570": "ashokrajd_hrmupload",
-                            "2579": "ashokrajd_Mazenet_BizEnabler_DB",
-                            "5909": "ashokrajd_mom",
+                            "2580": "db1.zip",
+                            "6123": "db2.zip",
+                            "2689": "db3.zip",
+                            "2570": "db4.zip",
+                            "2579": "db5.zip",
+                            "5909": "db6.zip",
                         }
 
             status = {}
