@@ -93,4 +93,4 @@ pyinstaller --onefile data.py send_mail.py
 
 ### 4. Delete all other files which are created along with the executable file
 
-"# Automation" 
+"# Automation" "# Python" "# Selenium"
